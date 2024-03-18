@@ -1,0 +1,60 @@
+/* workout.css */
+.workout-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f7; /* Light lavender */
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9d9ff; /* Soft lavender */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9370db; /* Medium purple */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #6a5acd; /* Darker purple on hover */
+  }
+  
+  .workout-result {
+    margin-top: 20px;
+    background-color: #ccffcc; /* Pale mint green */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .workout-result p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .highlight {
+    color: #007bff; /* Blue color for highlighting */
+    font-weight: bold;
+  }

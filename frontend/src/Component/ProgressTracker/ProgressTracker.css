@@ -1,0 +1,46 @@
+.tracker {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tracker-form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.tracker-form input, .tracker-form button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.tracker-form input {
+  background-color: #edf2f7;
+  color: #333;
+}
+
+.tracker-form button {
+  background-color: #10b981; /* Tailwind CSS Emerald Green */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tracker-form button:hover {
+  background-color: #059669; /* Darker shade of Emerald Green */
+}
+
+/* Styling for Chart.js Container (Optional) */
+.chart-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

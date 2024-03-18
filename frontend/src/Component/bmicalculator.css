@@ -1,0 +1,170 @@
+/* Container styles */
+.bmi-calculator-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    perspective: 1000px; /* Add perspective to create 3D effect */
+  }
+  
+  /* Colors based on health status */
+  .purple {
+    background-color: #8e44ad; /* Purple */
+    color: #fff;
+  }
+  
+  .green {
+    background-color: #2ecc71; /* Green */
+    color: #fff;
+  }
+  
+  .yellow {
+    background-color: #f39c12; /* Yellow */
+    color: #333;
+  }
+  
+  .red {
+    background-color: #e74c3c; /* Red */
+    color: #fff;
+  }
+  
+  /* Additional styles for the content */
+  .content {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    scroll-snap-type: y mandatory; /* Enable vertical scrolling snapping for scrollitelling */
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 3rem; /* Increase font size for emphasis */
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    color: #333; /* Darker color for better readability */
+    letter-spacing: 2px; /* Add letter spacing for clarity */
+    text-align: center;
+    padding: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  h2:hover {
+    color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Form styles */
+  form {
+    text-align: center; /* Center the form content */
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: left; /* Align labels to the left */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  label:hover {
+    color: #00274e;
+  }
+  
+  .content input,
+  select {
+    width: 100%; /* Full width on small screens; adjust as needed */
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #00274e;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .cal-button {
+    background: #004080;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 30px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .cal-button button:hover {
+    background: #00274e;
+    transform: scale(1.05); /* Scale button on hover for micro-animation effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #dc3545;
+    margin-top: 15px;
+  }
+  
+  /* Additional information styles */
+  .additional-info {
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Result message and health status styles */
+  .result-message,
+  .status-message {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-size: 24px;
+  }
+  
+  .result-message {
+    background-color: #00274e;
+    color: #000000;
+  }
+  
+  .status-message {
+    color: #333; /* Change the font color for the health status */
+  }
+  
+  .status-message:hover {
+    background-color: #81add5;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 600px) {
+  .content input,
+    select,
+    label {
+      width: 100%;
+    }
+  }

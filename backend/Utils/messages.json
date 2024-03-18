@@ -1,0 +1,15 @@
+{
+    "SIGNUP_SUCCESS": "Sign Up Successfully.",
+	"LOGIN_SUCCESS":"Log In Successfully.",
+    "PASSWORD_NOT_MATCH":"Password is wrong.",
+    "EMAIL_EXISTS": "User Already Exists.",
+    "USER_NOT_FOUND": "User not found Please Register Yourself.",
+    "USER_EXIST": "User already exist.",
+    "FAILED": "Failed",
+    "SUCCESS":"Success",
+    "NOT_MATCH":"Wrong Password.",
+    "AGE_VALIDATION":"Age not valid.",
+    "COMMENT_SUCCESS":"Comment Successfully",
+    "POST_SUCCESS":"Post Successfully"
+
+}

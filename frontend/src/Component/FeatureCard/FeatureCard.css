@@ -1,0 +1,59 @@
+/* FeatureCard.css */
+.feature-card {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border-radius: 0.5rem; 
+    margin: 15px;
+  }
+  .feature-card:hover{
+    padding-top: 20px;
+  }
+  
+  .feature-card img {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem; 
+    object-fit: cover;
+  }
+  
+  .feature-card .gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, #1f2937, transparent); 
+  }
+  
+  .feature-card .card-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    text-align: left;
+  }
+  
+  .feature-card h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .feature-card p {
+    margin-top: 0.5rem; 
+    font-size: 0.875rem; 
+    color: #d1d5db; 
+  }
+  
+  .feature-card button {
+    margin-top: 0.5rem;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    font-size: 0.875rem; 
+    color: white;
+    background: none;
+    border: none;   
+  }
+  .feature-card button:hover {
+    text-decoration: underline;
+    color: #1bbd7c;
+  }

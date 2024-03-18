@@ -1,0 +1,26 @@
+.outterr{
+  color: #33186B;
+}
+.welcome{
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  display: block;
+}
+.features{
+  justify-content: center;
+  text-align: center;
+  background-color: #FAEED1;
+  padding-top:10px;
+  display: block;
+}
+.cards{
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* padding: 150px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
